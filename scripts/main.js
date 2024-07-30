@@ -1,7 +1,5 @@
-var current_img;
-
 function preload() {
-  street_img = loadImage("assets/IMG_7629.jpeg");
+  street_img = loadImage("./assets/IMG_7629.jpeg");
 }
 
 document.addEventListener(`DOMContentLoaded`, function() {
@@ -14,7 +12,6 @@ document.addEventListener(`DOMContentLoaded`, function() {
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
-  //image(current_img, 0, 0);
   canvas.position(0,0);
   canvas.style('z-index','-1');
 
