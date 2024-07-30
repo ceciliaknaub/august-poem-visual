@@ -1,11 +1,7 @@
 var current_img;
 
 function preload() {
-  ocean_img = loadImage("assets/IMG_5860.jpeg");
-  park_img = loadImage("assets/IMG_6578.jpeg");
   street_img = loadImage("assets/IMG_7629.jpeg");
-
-  current_img = street_img;
 }
 
 document.addEventListener(`DOMContentLoaded`, function() {
@@ -22,8 +18,7 @@ function setup() {
   canvas.position(0,0);
   canvas.style('z-index','-1');
 
-  current_img = street_img;
-  image(current_img, 0, -200);
+  image(street_img, 0, -200);
 
   //disply footer
   document.querySelector(".footer").style.display = 'flex';
