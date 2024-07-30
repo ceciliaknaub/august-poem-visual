@@ -1,0 +1,89 @@
+html {
+    height: 97%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 100%;
+}
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+button {
+    font-family: "Coromorant Garamond", serif;
+    width: auto;
+    margin: 5%;
+    margin-top: 5%;
+    color: black;
+    opacity: 0.5;
+    border: none;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Coromorant Garamond", serif;
+}
+.poem-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text-container p {
+    margin-top: 5%;
+    width: 5%;
+    padding: 1%;
+    font-size: 16px;
+}
+
+.footer {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    opacity: 0.5;
+    height: 12%;
+}
+
+#about-btn {
+    font-size: 12px;
+    color: white;
+    opacity: 1.0;
+    background-color: transparent;
+}
+
+#footer-text {
+    display: none;
+    font-size: 12px;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+#footer-text a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
